@@ -13,7 +13,7 @@ namespace WeatherApp
     public partial class MainWindow : Window
     {
         private readonly HttpClient _http = new HttpClient();
-        private readonly string _apiKey = "1869bd95d0469c626f38dead924b79ef";
+        private readonly string _apiKey = "your_key"; // заменить на свой ключ
         private readonly List<string> _days = new List<string>
         {
             "Сегодня", "Завтра",
